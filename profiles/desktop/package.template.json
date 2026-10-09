@@ -1,7 +1,7 @@
 {
   "name": "dsh-profile-desktop",
   "private": true,
-  "_comment": "TEMPLATE. The Windows original used absolute link: paths (see package.windows-original.json). Run ../../setup-macos.sh, which substitutes the placeholder below with the real clone path before copying this into ~/.dsh/profiles/desktop/package.json.",
+  "_comment": "TEMPLATE. The Windows original used absolute link: paths; setup-macos.sh substitutes the placeholder below with the real clone path and writes the result to ~/.dsh/profiles/desktop/package.json. This is a build input, not a restored file, so it does not appear in the installed profile. See package.windows-original.json.txt in the repo for the untouched original.",
   "dependencies": {
     "dsh-mcp-anzu-pc": "link:__DSH_BACKUP_DIR__/plugins/dsh-mcp-anzu-pc",
     "dsh-plugin-wallpaper-engine": "link:__DSH_BACKUP_DIR__/plugins/dsh-wallpaper-engine",
