@@ -1,7 +1,7 @@
 {
   "name": "dsh-profile-desktop",
   "private": true,
-  "_comment": "TEMPLATE. The original Windows file used absolute link: paths. Run ../setup-macos.sh, which rewrites __DSH_BACKUP_DIR__ to the real clone path before copying this into ~/.dsh/profiles/desktop/package.json.",
+  "_comment": "TEMPLATE. The Windows original used absolute link: paths (see package.windows-original.json). Run ../../setup-macos.sh, which substitutes the placeholder below with the real clone path before copying this into ~/.dsh/profiles/desktop/package.json.",
   "dependencies": {
     "dsh-mcp-anzu-pc": "link:__DSH_BACKUP_DIR__/plugins/dsh-mcp-anzu-pc",
     "dsh-plugin-wallpaper-engine": "link:__DSH_BACKUP_DIR__/plugins/dsh-wallpaper-engine",
