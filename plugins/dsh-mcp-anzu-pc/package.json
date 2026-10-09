@@ -1,0 +1,13 @@
+{
+  "name": "dsh-mcp-anzu-pc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anzu_PC desktop connector for DeepSeek Harness: registers the local DevSpace MCP server (Windows desktop control, app launching, workspace file/shell tools) as an MCP client bridge.",
+  "keywords": ["dsh", "dsh-plugin", "mcp", "anzu", "devspace", "desktop-control"],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

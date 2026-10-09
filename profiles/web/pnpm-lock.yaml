@@ -1,0 +1,13 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      dsh-plugin-wallpaper-engine:
+        specifier: link:D:/dsh-wallpaper-engine
+        version: link:D:/dsh-wallpaper-engine

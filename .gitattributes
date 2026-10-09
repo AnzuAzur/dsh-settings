@@ -1,0 +1,26 @@
+# Shell scripts must keep LF endings or macOS bash fails with
+# "bad interpreter: No such file or directory".
+*.sh            text eol=lf
+*.bash          text eol=lf
+
+# Config we hand-edit and restore byte-for-byte: keep exactly as authored.
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.json          text eol=lf
+*.jsonl         text eol=lf
+*.md            text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Binary-ish payloads: never touch.
+*.zstd          binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.webp          binary
+*.mp3           binary
+*.wav           binary
+*.pdf           binary
+*.exe           binary
+*.zip           binary

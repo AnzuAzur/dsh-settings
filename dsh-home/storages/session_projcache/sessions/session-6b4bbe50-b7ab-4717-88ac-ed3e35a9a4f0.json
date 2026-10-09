@@ -1,0 +1,470 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1791528322184,
+      "cwd": "C:\\Users\\hoang\\OneDrive\\Documents\\deepseek-harness\\default-workspace",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 117,
+        "val": "Push DeepSeek harness setup to GitHub"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 117,
+        "val": {
+          "first": {
+            "seq": 16,
+            "text": "push deepseek harness setting and everything i download on here into github so i can set it up the same on my mac"
+          },
+          "count": 1,
+          "lastSeq": 16
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 117,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 117,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 117,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 18401,
+            "outputTokens": 6843,
+            "cacheReadTokens": 183808,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 12,
+            "buckets": {
+              "uncachedInputTokens": 190,
+              "outputTokens": 918,
+              "cacheReadTokens": 23936,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 117,
+        "val": {
+          "surfaceTokens": 17562,
+          "contextWindow": 1000000,
+          "pressureTokens": 24126,
+          "sampledSurfaceTokens": 16757
+        }
+      },
+      "contextBreakdown": {
+        "ver": 5,
+        "seq": 117,
+        "val": {
+          "nodes": [
+            {
+              "seq": 14,
+              "heuristicTokens": 1546,
+              "system": true
+            },
+            {
+              "seq": 15,
+              "heuristicTokens": 26,
+              "system": false
+            },
+            {
+              "seq": 16,
+              "heuristicTokens": 37,
+              "system": false
+            },
+            {
+              "seq": 17,
+              "heuristicTokens": 106,
+              "system": false
+            },
+            {
+              "seq": 18,
+              "heuristicTokens": 607,
+              "system": false
+            },
+            {
+              "seq": 26,
+              "heuristicTokens": 402,
+              "system": false
+            },
+            {
+              "seq": 28,
+              "heuristicTokens": 149,
+              "system": false
+            },
+            {
+              "seq": 30,
+              "heuristicTokens": 866,
+              "system": false
+            },
+            {
+              "seq": 34,
+              "heuristicTokens": 365,
+              "system": false
+            },
+            {
+              "seq": 36,
+              "heuristicTokens": 1140,
+              "system": false
+            },
+            {
+              "seq": 38,
+              "heuristicTokens": 411,
+              "system": false
+            },
+            {
+              "seq": 42,
+              "heuristicTokens": 434,
+              "system": false
+            },
+            {
+              "seq": 44,
+              "heuristicTokens": 88,
+              "system": false
+            },
+            {
+              "seq": 46,
+              "heuristicTokens": 111,
+              "system": false
+            },
+            {
+              "seq": 50,
+              "heuristicTokens": 519,
+              "system": false
+            },
+            {
+              "seq": 52,
+              "heuristicTokens": 1067,
+              "system": false
+            },
+            {
+              "seq": 54,
+              "heuristicTokens": 1325,
+              "system": false
+            },
+            {
+              "seq": 58,
+              "heuristicTokens": 686,
+              "system": false
+            },
+            {
+              "seq": 60,
+              "heuristicTokens": 57,
+              "system": false
+            },
+            {
+              "seq": 62,
+              "heuristicTokens": 52,
+              "system": false
+            },
+            {
+              "seq": 66,
+              "heuristicTokens": 694,
+              "system": false
+            },
+            {
+              "seq": 68,
+              "heuristicTokens": 72,
+              "system": false
+            },
+            {
+              "seq": 72,
+              "heuristicTokens": 532,
+              "system": false
+            },
+            {
+              "seq": 74,
+              "heuristicTokens": 16,
+              "system": false
+            },
+            {
+              "seq": 76,
+              "heuristicTokens": 99,
+              "system": false
+            },
+            {
+              "seq": 80,
+              "heuristicTokens": 85,
+              "system": false
+            },
+            {
+              "seq": 83,
+              "heuristicTokens": 2690,
+              "system": false
+            },
+            {
+              "seq": 84,
+              "heuristicTokens": 187,
+              "system": false
+            },
+            {
+              "seq": 88,
+              "heuristicTokens": 540,
+              "system": false
+            },
+            {
+              "seq": 90,
+              "heuristicTokens": 111,
+              "system": false
+            },
+            {
+              "seq": 92,
+              "heuristicTokens": 232,
+              "system": false
+            },
+            {
+              "seq": 96,
+              "heuristicTokens": 376,
+              "system": false
+            },
+            {
+              "seq": 98,
+              "heuristicTokens": 16,
+              "system": false
+            },
+            {
+              "seq": 100,
+              "heuristicTokens": 330,
+              "system": false
+            },
+            {
+              "seq": 104,
+              "heuristicTokens": 722,
+              "system": false
+            },
+            {
+              "seq": 107,
+              "heuristicTokens": 23,
+              "system": false
+            },
+            {
+              "seq": 109,
+              "heuristicTokens": 38,
+              "system": false
+            },
+            {
+              "seq": 113,
+              "heuristicTokens": 717,
+              "system": false
+            },
+            {
+              "seq": 115,
+              "heuristicTokens": 88,
+              "system": false
+            }
+          ],
+          "breakdown": {
+            "systemTokens": 1546,
+            "toolsTokens": 5873,
+            "messageTokens": 16016
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "openTurnStartSeq": 10,
+          "lastStepStartSeq": 117,
+          "lastStepBoundary": {
+            "kind": "start",
+            "seq": 117
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 117,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 117,
+        "val": {
+          "turns": 1,
+          "steps": 12,
+          "llmMs": 37780,
+          "toolMs": 90436,
+          "ttftMs": 11691,
+          "ttftSteps": 12,
+          "decodeMs": 26089,
+          "decodeTokens": 6843,
+          "lastTurn": 1,
+          "openStep": {
+            "turn": 1,
+            "step": 13,
+            "startTime": 1791528496533,
+            "firstTokenTime": null
+          },
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 10,
+              "prompt": "push deepseek harness setting and everything i do…",
+              "response": ""
+            }
+          ],
+          "draft": "Good. `gh` is installed and the browser auth flow is running. Let me track the work and start building."
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 117,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "subagentCatalog": {
+        "ver": 3,
+        "seq": 117,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 117,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0,
+          "pendingTurnStart": 1791528368107
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 117,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 117,
+        "val": [
+          {
+            "content": "Recon DSH settings + Downloads; decide repo layout",
+            "status": "completed"
+          },
+          {
+            "content": "Install GitHub CLI and authenticate",
+            "status": "in_progress"
+          },
+          {
+            "content": "Stage dsh-settings repo (config, profiles, skills, plugins, secrets templated)",
+            "status": "in_progress"
+          },
+          {
+            "content": "Stage downloads-backup repo (Downloads minus oversized binaries)",
+            "status": "pending"
+          },
+          {
+            "content": "Write macOS setup guide + bootstrap script",
+            "status": "pending"
+          },
+          {
+            "content": "Create both GitHub repos and push",
+            "status": "pending"
+          },
+          {
+            "content": "Verify pushed contents and report clone/setup steps",
+            "status": "pending"
+          }
+        ]
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 117,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 117,
+        "val": null
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 117,
+        "val": {
+          "lastUsed": {
+            "provider": "deepseek-official",
+            "model": "deepseek-flash",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 117,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1791528368138
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 117,
+        "val": null
+      }
+    }
+  }
+}

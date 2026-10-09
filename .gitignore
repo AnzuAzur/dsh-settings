@@ -1,0 +1,18 @@
+# --- DSH runtime data: DO NOT COMMIT ---
+# Secrets are stored as .example templates in secrets-examples/ instead.
+dsh-home/.credentials.yaml
+dsh-home/.env
+dsh-home/anzu-mcp-token.json
+dsh-home/*.bak
+
+# --- Rebuilt on the Mac by `pnpm install` ---
+profiles/*/node_modules/
+profiles/*/.plugin-manager/logs/
+**/node_modules/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.log

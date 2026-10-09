@@ -1,0 +1,13 @@
+{
+  "_comment": "Copy to ~/.dsh/anzu-mcp-token.json on the Mac and fill in the real values. Normally the Anzu_PC connector writes this file itself after you complete its OAuth flow, so this template is only needed if you want to carry the session across manually.",
+  "obtainedAt": "1970-01-01T00:00:00.000Z",
+  "mcpUrl": "http://127.0.0.1:7676/mcp",
+  "resource": "https://anzu-devspace.scanxert.io.vn/mcp",
+  "clientId": "PASTE_CLIENT_ID_HERE",
+  "access_token": "PASTE_ACCESS_TOKEN_HERE",
+  "refresh_token": "PASTE_REFRESH_TOKEN_HERE",
+  "expires_in": 3600,
+  "scope": "devspace",
+  "token_type": "bearer",
+  "refreshed": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "dsh-profile-desktop",
+  "private": true,
+  "_comment": "TEMPLATE. The original Windows file used absolute link: paths. Run ../setup-macos.sh, which rewrites __DSH_BACKUP_DIR__ to the real clone path before copying this into ~/.dsh/profiles/desktop/package.json.",
+  "dependencies": {
+    "dsh-mcp-anzu-pc": "link:__DSH_BACKUP_DIR__/plugins/dsh-mcp-anzu-pc",
+    "dsh-plugin-wallpaper-engine": "link:__DSH_BACKUP_DIR__/plugins/dsh-wallpaper-engine",
+    "dsh-whale-widget": "github:MeteorNOX/DeepSeek-Balance-Whale-Widget"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "dsh-whale-widget",
+        "dsh-plugin-wallpaper-engine",
+        "dsh-mcp-anzu-pc"
+      ]
+    }
+  }
+}

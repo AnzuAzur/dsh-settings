@@ -1,0 +1,20 @@
+{
+  "name": "dsh-profile-desktop",
+  "private": true,
+  "dependencies": {
+    "dsh-mcp-anzu-pc": "link:C:/Users/hoang/dsh-mcp-anzu-pc",
+    "dsh-plugin-wallpaper-engine": "link:D:/dsh-wallpaper-engine",
+    "dsh-whale-widget": "github:MeteorNOX/DeepSeek-Balance-Whale-Widget"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "dsh-whale-widget",
+        "dsh-plugin-wallpaper-engine",
+        "dsh-mcp-anzu-pc"
+      ]
+    }
+  }
+}

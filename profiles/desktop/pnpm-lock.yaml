@@ -1,0 +1,29 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      dsh-mcp-anzu-pc:
+        specifier: link:C:/Users/hoang/dsh-mcp-anzu-pc
+        version: link:../../../dsh-mcp-anzu-pc
+      dsh-plugin-wallpaper-engine:
+        specifier: link:D:/dsh-wallpaper-engine
+        version: link:D:/dsh-wallpaper-engine
+      dsh-whale-widget:
+        specifier: github:MeteorNOX/DeepSeek-Balance-Whale-Widget
+        version: https://codeload.github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/tar.gz/770d3f55ff40284eb244fff33fc9ed4654be8a45
+
+packages:
+
+  dsh-whale-widget@https://codeload.github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/tar.gz/770d3f55ff40284eb244fff33fc9ed4654be8a45:
+    resolution: {gitHosted: true, integrity: sha512-LzvBNSxIdxesBdiunsf2QBsrTo5zeGISdAIK8ej3CB1Xf321J0SpaIftmQWW3L8ZtF2s8t7rizcqGvFCOcOHhw==, tarball: https://codeload.github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/tar.gz/770d3f55ff40284eb244fff33fc9ed4654be8a45}
+    version: 0.3.18
+
+snapshots:
+
+  dsh-whale-widget@https://codeload.github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/tar.gz/770d3f55ff40284eb244fff33fc9ed4654be8a45: {}

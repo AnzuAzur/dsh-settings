@@ -1,0 +1,30 @@
+# ============================================================================
+# dsh-mcp-anzu-pc -- DSH bundle patch
+# ============================================================================
+# Registers the local Anzu_PC DevSpace MCP server with DeepSeek Harness through
+# the shipped @deepseek-ai/dsh-mcp-client bridge. The server's tools become
+# available to the model as mcp__anzu__<tool>.
+#
+# Server:  http://127.0.0.1:7676/mcp   (DevSpace, must be running)
+# Tools:   open_workspace, launch_application, check_application_status,
+#          mouse_control, drag_mouse, get_cursor_position, server_status,
+#          read, write, edit, bash
+#
+# Auth is an OAuth bearer token. The harness reads ANZU_MCP_TOKEN from
+# ~/.dsh/.env at startup; ~/.dsh/anzu-mcp-token.json holds the rotating refresh
+# token and refresh-anzu-token.mjs renews it. Access tokens last 1 hour, so
+# refresh and relaunch the app when the tools disappear.
+# ============================================================================
+
+- insert:
+    - id: mcp-anzu-pc
+      name: "@deepseek-ai/dsh-mcp-client"
+      config:
+        serverName: anzu
+        transport: streamable-http
+        url: http://127.0.0.1:7676/mcp
+        headers:
+          Authorization: !!js '`Bearer ${process.env.ANZU_MCP_TOKEN}`'
+        toolCallTimeoutMs: 120000
+        reconnect:
+          enabled: true

@@ -1,0 +1,33 @@
+{
+  "unit": {
+    "name": "workspace",
+    "version": 2
+  },
+  "global": {
+    "initialized": true,
+    "workspaceIds": [
+      "e3afcf0c-4d27-411a-99d8-8ddd7f6b6580"
+    ],
+    "archivedSessionIds": [],
+    "pinnedSessionIds": [],
+    "defaultWorkspaceId": "e3afcf0c-4d27-411a-99d8-8ddd7f6b6580"
+  },
+  "tables": {
+    "workspaces": {
+      "e3afcf0c-4d27-411a-99d8-8ddd7f6b6580": {
+        "path": "C:\\Users\\hoang\\OneDrive\\Documents\\deepseek-harness\\default-workspace",
+        "title": "default-workspace",
+        "sessionIds": [
+          "session-6b4bbe50-b7ab-4717-88ac-ed3e35a9a4f0",
+          "session-36e052ed-7748-45e0-8292-3d759597ba0f",
+          "session-8e5462ef-af48-4b56-a253-7691db65fd77",
+          "session-5f849a2d-cf55-4d27-9f63-051eb23432de",
+          "session-a3c7720c-25d7-4c1d-a9f7-c08fe6b73ff7",
+          "session-9a14c01c-01c4-450e-972e-6492c61d87b1"
+        ],
+        "createdAt": "2026-10-06T13:35:39.104Z",
+        "updatedAt": "2026-10-09T06:45:22.204Z"
+      }
+    }
+  }
+}
