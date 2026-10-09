@@ -57,14 +57,18 @@ for src in "$REPO_DIR"/profiles/*/; do
   name="$(basename "$src")"
   dest="$DSH_HOME_DIR/profiles/$name"
   mkdir -p "$dest"
+  # The desktop profile's package.json holds Windows absolute link: paths.
+  # When a template exists it is the source of truth, so skip both the baked
+  # package.json and the reference copy, then render the template below.
   for f in "$src"*; do
     [[ -f "$f" ]] || continue
-    case "$(basename "$f")" in
-      package.template.json|package.windows-original.json) continue ;;
-      *) cp -a "$f" "$dest/" ;;
+    base="$(basename "$f")"
+    case "$base" in
+      package.template.json|package.windows-original.json.txt) continue ;;
+      package.json) [[ -f "$src/package.template.json" ]] && continue ;;
     esac
+    cp -a "$f" "$dest/"
   done
-  # desktop's package.json links the two local plugins by absolute path.
   if [[ -f "$src/package.template.json" ]]; then
     say "  rewiring $name/package.json -> $REPO_DIR/plugins/..."
     sed "s|__DSH_BACKUP_DIR__|$REPO_DIR|g" "$src/package.template.json" > "$dest/package.json"

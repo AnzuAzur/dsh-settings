@@ -96,8 +96,9 @@ The script:
 4. **Rewrites `package.json`** — the Windows build used absolute `link:` paths
    (`C:/Users/hoang/dsh-mcp-anzu-pc`, `D:/dsh-wallpaper-engine`). The script
    substitutes `__DSH_BACKUP_DIR__` with the real clone path so the local plugins
-   resolve on macOS. The untouched originals are kept as
-   `package.windows-original.json` for reference.
+   resolve on macOS. The script prefers `package.template.json` and ignores the
+   baked `package.json`; the untouched original is kept as
+   `package.windows-original.json.txt` for reference.
 5. Copies the skills across.
 6. Seeds the three secret files from `secrets-examples/` if absent.
 7. Prints the `pnpm install` command for the next step.

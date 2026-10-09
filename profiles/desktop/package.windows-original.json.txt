@@ -1,6 +1,12 @@
-# Original Windows package.json — kept for reference only.
-# The Mac setup uses package.template.json via setup-macos.sh instead,
-# because these link: paths are Windows absolute paths.
+Original Windows package.json - kept for reference only.
+The Mac setup uses package.template.json via setup-macos.sh instead,
+because the link: paths below are Windows absolute paths and do not
+resolve on macOS.
+
+Note: this is deliberately NOT a .json file. It carries a comment header,
+so parsers would reject it. The machine-readable version lives in
+package.template.json.
+
 {
   "name": "dsh-profile-desktop",
   "private": true,
